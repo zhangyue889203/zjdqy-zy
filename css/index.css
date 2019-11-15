@@ -1,0 +1,151 @@
+#main{
+	width: 1200px;
+	margin: 20px auto;
+}
+#main li a:hover{
+	text-decoration: underline;
+	color: #4B8DE3;
+}
+#main span a:hover{
+	color: #2563E3;
+	text-decoration: underline;
+}
+#banner{
+	width:620px;
+	height: 342px;
+}
+#size{
+	width: 600px;
+	height: 20px;
+	background: rgba(28,28,28,0.8);
+	position: absolute;
+	top: 540px;
+	padding: 6px 0px 6px 20px;
+	display: none;
+}
+#size a{
+	color: #ffffff;
+}
+#banner ul{
+	overflow: hidden;
+	padding-left: 528px;
+	margin-top: -16px;	
+}
+#banner li{
+	width: 8px;
+	height: 8px;
+	background: url(../img/t1.png);
+	position: relative;
+	float: left;
+	margin-right: 8px;
+}
+#banner #b1{
+	width: 40px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	float: left;
+	margin-bottom: -21px;
+	margin-left: 580px;
+	position:relative;
+	background: rgba(28,28,28,0.8);
+	color: #ffffff;
+	cursor: default;
+	font-size: 12px;
+}
+#map{
+	width: 560px;
+	height: 606px;
+	background: #ffffff;
+	position: relative;
+	top: -342px;
+	left: 640px;
+}
+#map h3{
+	height: 45px;
+	width: 560px;
+	line-height: 45px;
+	padding-left: 27px;
+	font-size: 20px;
+	color: #2566C2;
+	cursor: default;
+	font-weight: normal;
+	background: url(imgs/966.png) no-repeat 15px 15px;
+}
+#map p{
+	width: 560px;
+	height: 558px;
+	border-top: 2px solid #2566C2;
+	text-align: center;
+}
+#gonggao,#shengjv,#shixian,#dangjian,#zhishi{
+	width: 620px;
+	height: 244px;
+	background: #ffffff;
+	float: left;
+	margin: -586px 0px 0px 0px;
+}
+#gonggao h3,#shengjv h3,#shixian h3,#dangjian h3,#zhishi h3{
+	height: 35px;
+	width: 593px;
+	font-size: 20px;
+	color: #2566C2;
+	padding: 10px 0px 0px 27px;
+	font-weight:normal;
+	cursor: default;
+	background: url(imgs/966.png) no-repeat 15px 15px;
+}
+#gonggao span,#shengjv span,#shixian span,#dangjian span,#zhishi span{
+	display: inline-block;
+	width: 49px;
+	height: 19px;
+	float: right;
+	position: relative;
+	margin-top: -31px;
+	margin-right: 20px;
+}
+#gonggao span a,#shengjv span a,#shixian span a,#dangjian span a,#zhishi span a{
+	color: #4B8DE3;
+	display:block;
+}
+#text{
+	padding-top: 5px;
+	border-top: 2px solid #2566C2;
+}
+#text li{
+	padding: 14px 0px 0px 36px;
+	background: url(imgs/662.png) no-repeat 20px 22px;
+}
+#text span{
+	display: inline-block;
+	width: 78px;
+	height: 19px;
+	margin-top: 0px;
+	font-size: 14px;
+	color: #999999;
+}
+#shengjv{
+	margin-top: -321px;
+}
+#shixian{
+	width: 560px;
+	margin-top: -321px;
+	margin-left: 640px;
+}
+#dangjian{
+	height: 270px;
+	margin-top: -55px;
+}
+#dangjian li{
+	margin-left: 220px;
+}
+#dangjian #mape{
+	float: left;
+	margin: 14px 0px 0px 20px;
+}
+#zhishi{
+	margin-top: -55px;
+	width: 560px;
+	margin-left: 20px;
+	height: 270px;
+}

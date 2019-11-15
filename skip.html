@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>跳转中...</title>
+		<style>
+			#div1{
+				float: left;
+				position: relative;
+				top: 50px;
+				background: url(img/timg.gif) no-repeat -200px -150px;
+				width: 600px;
+				height: 463px;
+			}
+			#div2{
+				float: left;
+				position: relative;
+				text-align: center;
+				padding-top: 70px;
+				padding-left: 15px;
+				width: 400px;
+				height: 130px;
+				top: 150px;
+				color: #333333;
+				font-size: 17px;
+				background: url(img/skip.png);
+			}
+			#span1{
+				color: #CC0000;
+			}
+		</style>
+		<script>
+			window.onload=function(){
+				var span1=document.getElementById("span1");
+				var i=2;
+				var arr=setInterval(function(){
+					span1.innerText=i;
+					i--;
+					if(i<0){
+						clearInterval(arr);
+						location.href="login.html";
+					}
+				},1000);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="div1"></div>
+		<div id="div2">
+			用户注册成功，网页将在 <span id="span1">3</span> 秒后跳转到登录页。
+		</div>
+		
+	</body>
+</html>

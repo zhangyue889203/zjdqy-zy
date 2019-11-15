@@ -1,0 +1,82 @@
+.text,.pwd{
+	width: 260px;
+	height: 36px;
+	border-radius: 3px;
+	border:1px solid #ccc;
+	font-size: 14px;
+	padding-left: 70px;
+}
+.text{
+	position: absolute;
+	top: 166px;
+	left: 393px;
+}
+.pwd{
+	position: absolute;
+	top: 222px;
+	left: 393px;
+}
+.checkbox{
+	width: 18px;
+	height:18px;
+	position: absolute;
+	top: 278px;
+	left: 394px;
+}
+.span1{
+	width: 56px;
+	height: 20px;
+	color: #333;
+	position: absolute;
+	top: 176px;
+	left: 409px;
+	font-size: 14px;
+	color: #333333;
+}
+.span2{
+	width: 56px;
+	height: 20px;
+	color: #333;
+	position: absolute;
+	top: 232px;
+	left: 409px;
+	font-size: 14px;
+	color: #333333;
+}
+.span3{
+	font-size: 12px;
+	color: #666;
+	position: absolute;
+	top: 281px;
+	left: 420px;
+}
+form a.note1{
+	position: absolute;
+	top: 278px;
+	left: 633px;
+	font-size: 12px;
+	color: #4B8DE3;
+	text-decoration: none;
+}
+form a.note2{
+	position: absolute;
+	top: 278px;
+	left: 663px;
+	font-size: 12px;
+	color: #4B8DE3;
+	text-decoration: none;
+}
+.sub{
+	width: 330px;
+	height:40px;
+	background: #4B8DE3;
+	border: 1px solid #4B8DE3;
+	border-radius: 3px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	line-height: 40px;
+	position: absolute;
+	top: 312px;
+	left: 393px;
+}

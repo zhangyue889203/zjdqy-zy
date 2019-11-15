@@ -1,0 +1,45 @@
+#textbox{
+	margin: 89px auto;
+}
+#find{
+	width: 100%;
+	height: 70px;
+	float: left;
+	background: #FFFFFF;
+}
+#find1{
+	width: 1146px;
+	height: 27px;
+	background: #FFFFFF;
+	margin: 0px auto;
+	padding: 21px 30px 22px 0px;
+}
+#find1 span{
+	margin-left: 24px;
+	width: 70px;
+	height:20px;
+}
+#find1 input{
+	height: 16px;
+	padding: 4px 8px;
+	margin-left: 8px;
+}
+#find1 .textzl{
+	width: 100px;
+}
+#find1 .bt{
+	background: #4B8DE3;
+	border: 1px solid #4B8DE3;
+	border-radius: 3px;
+	width: 60px;
+	height: 28px;
+	color: rgba(255,255,255,0.90);
+}
+#find1 .cz{
+	width: 60px;
+	height: 28px;
+	background: #FFFFFF;
+	border: 1px solid #4B8DE3;
+	border-radius: 3px;
+	color: #4B8DE3;
+}
